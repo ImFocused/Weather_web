@@ -13,14 +13,21 @@ body{
     width  : 90%;
     height : auto;
     max-width : 470px;
-    background-color: #fff;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2  100%);
     border-radius : 20px;
     text-align : center;
-    margin : 20% auto 0;
+    margin: 20% auto 0;
+    
 }
 #search{
     width : 100%;
     display : flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+
+}
+#search input{
+    margin : 0;
+    padding : 0;
+    outline  : 0;
 }
