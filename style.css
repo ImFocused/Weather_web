@@ -100,3 +100,10 @@ body{
     font-size: large;
     font-weight: 700;
 }
+.error{
+    text-align: left;
+    font-size: 14px;
+    padding : 10px;
+    color : rgb(255, 0, 0);
+    display : none;
+}
