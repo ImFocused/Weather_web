@@ -57,3 +57,9 @@ searchbtn.addEventListener("click",()=>{
     checkweather(searchbox.value);
 })
 
+searchbox.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        checkweather(searchbox.value);
+    }
+}
+)
