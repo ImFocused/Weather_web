@@ -79,7 +79,7 @@ body{
     display : flex;
     align-items : center;
     justify-content: space-evenly;
-    padding : 7%
+    padding: 10px 0px 10px 0px;
 }
 .other img{
     height : 30%;
@@ -94,7 +94,8 @@ body{
     
 }
 .other-box{
-    padding  : 8px;
+    padding  : 0px;
+    
 }
 .humidity img, .wind img{
     height : 20%;
@@ -104,6 +105,7 @@ body{
 #humidity-no,#wind-no{
     font-size: large;
     font-weight: 700;
+    text-align: center  ;
 }
 .error{
     text-align: left;
